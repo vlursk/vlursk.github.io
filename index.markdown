@@ -21,6 +21,7 @@ layout: default
     </span>
     {% endif %}
     <!-- BEGIN this would not work on any other domain -->
+    <!--
     <span
       class           = 'like-wrapper'
       like-shortname  = '{{ site.disqus }}'
@@ -34,6 +35,7 @@ layout: default
       l.src = 'http://www.like-btn.com/javascript/widget.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
     </script>
+    -->
     <!-- END this would not work on any other domain -->
     </section>
     <section class="post">
